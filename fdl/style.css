@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700display=swap');
+/* font-family: 'Space Grotesk', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #DD75CC;
+    scroll-snap-type: X mandatory;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* .body article{
+    width: 100%;
+    height: 100%;
+} */
+
+/* .carousel {
+    
+
+
+    display: flex;
+    scroll-snap-type: x mandatory;
+   
+   overflow-x: scroll;
+     -ms-overflow-style: none; 
+     scrollbar-width: none; 
+} */
+
+
+
+
+.pic1 {
+    position: relative;
+    height: 100vh;
+}
+
+.pic1 h1 {
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 5px;
+    left: 0;
+    padding: 11px 20px;
+    color: #E1DDD6;
+    width: 100%;
+    font-size: clamp(1.875rem, 0.625rem + 4.4444vw, 3.125rem);
+    font-weight: 400;
+    letter-spacing: -3, 5%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.pic1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* transform: translate(25%); */
+}
+
+
+
+
+    .text1 {
+    background-color: #DD75CC;
+    height: 100vh;
+    padding-left: 25px;}
+
+.text1>div {
+    width: 100%;}
+
+.text1 div:nth-of-type(1) {
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;}
+
+.text1 img {
+    height: 33px;}
+
+.text1 h4 {
+    color: #1F1F1F;
+    font-size: clamp(1.125rem, 1rem + 0.4444vw, 1.25rem);
+    letter-spacing: -3, 5%;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 100%;
+    font-weight: 500;}
+
+.text1 h2 {
+    padding-top: 200px;
+    text-transform: uppercase;
+    line-height: 80%;
+
+    color: #1F1F1F;
+    font-size: clamp(3.125rem, 0.9698rem + 6.8966vw, 5.625rem);
+        font-weight: 500;
+    letter-spacing: -3, 5%;
+    font-family: 'Space Grotesk', sans-serif;}
+
+.text1 p {
+    text-transform: none;
+    width: clamp(20rem, 1.25rem + 66.6667vw, 38.75rem);
+    padding-top: 30px;
+font-weight: 400;
+    color: #1F1F1F;
+    font-size: clamp(0.875rem, 0.3901rem + 1.5517vw, 1.4375rem);
+        font-style: Regular;
+    letter-spacing: -3, 5%;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 100%;}
+
+.text1 div:nth-of-type(2) {
+    margin-top: 40px;
+    padding-right: 15px;}
+
+.text1 h3 {
+     color: #1F1F1F;
+    font-size: clamp(1.125rem, 1rem + 0.4444vw, 1.25rem);
+    letter-spacing: -3, 5%;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 100%;
+    margin-top: 30px;
+    font-weight: 700;}
+
+
+
+
+
+
+.icone {
+    height: 100vh;
+    width: 100vw;
+    background-color: #EAEAEA;
+    position: relative;}
+.icone .text {
+    padding-left: clamp(1.5625rem, -0.8929rem + 8.7302vw, 5rem);
+    font-family: 'Space Grotesk', sans-serif;
+    color: #1F1F1F;
+    position: absolute;
+    bottom: 15px;
+    width: clamp(18.75rem, 12.5rem + 22.2222vw, 27.5rem);
+    line-height: 100%;
+    padding-bottom: 15px;}
+.icone h1 {
+    text-transform: uppercase;
+    padding-bottom: 15px;}
+.icone .mobile img {
+    position: absolute;
+    width: 100%;
+    height: 77%;
+    object-fit: cover;}
+.icone .desktop img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+.icone .h1 {
+    font-size: clamp(1.25rem, 1.0268rem + 0.7937vw, 1.5625rem);
+    font-family: 'Space Grotesk', sans-serif;
+    color: #1F1F1F;
+}
+
+.hoverview { 
+    height: 100vh;
+    width: 100vw;
+    background-color: #1F1F1F;
+    position: relative;}
+
+
+.hoverview img{
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.affiche {
+    height: 100vh;
+    width: 100vw;
+
+    position: relative;
+
+}
+
+.affiche .mobile video {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.affiche .desktop img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+
+.video {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    position: relative;
+
+}
+
+.video .mobile video {
+   
+    /* width: 100%; */
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    top: 50%;
+  
+    transform: translate(-50%,-50%);
+
+
+
+}
+
+.video .desktop video {
+    display: none;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+
+    .intro {
+        display: flex;
+    }
+
+    .intro>section {
+        width: 50%;
+    }
+
+
+    .pic1 {
+        height: 100vh;
+    }
+
+    .pic1 h1 {
+        display: none;
+    }
+
+    .pic1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* transform: translate(25%); */
+    }
+
+    .text1 {
+        order: -1;
+        width: 50vw;
+        height: 100vh;
+        /* background-color: #E1DDD6; */
+    }
+
+
+    .text1 p {
+        width: clamp(20rem, 1.25rem + 66.6667vw, 38.75rem);
+        width: 90%;
+    }
+
+    .text1 div:nth-of-type(2) {
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+
+
+
+
+    .icone .mobile img {
+        display: none;
+    }
+
+    .icone .desktop img {
+
+        /* position: absolute; */
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+    .affiche .mobile video {
+        display: none;
+    }
+
+    .affiche .desktop img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+
+    }
+
+
+
+
+    .video .mobile video {
+        display: none;
+    }
+
+    .video .desktop video {
+       display: block;
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+        padding-top: 2%;
+    }
+
+
+
+ }
